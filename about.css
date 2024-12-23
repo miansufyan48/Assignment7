@@ -180,7 +180,7 @@ ul{
     position: absolute;
     left: 0;
     bottom: -10px;
-    background-color: #e91e63;
+    background-color: #b2ffae;
     height: 2px;
     box-sizing: border-box;
     width: 50px;
@@ -254,7 +254,7 @@ ul{
 
 .heading h1{
     font-size: 55px;
-    color: #ff6347;
+    color: #000000;
     text-align: center;
     margin-top: 120px;
 }
@@ -289,8 +289,8 @@ ul{
 .hero-content button{
     display: inline-block;
     padding: 15px 30px;
-    background-color: #ff4500;
-    color: #fff;
+    background-color: #b5ff45;
+    color: #050505;
     border-radius: 5px;
     font-size: 20px;
     border: none;
@@ -299,7 +299,7 @@ ul{
 }
 
 .hero-content button:hover{
-    background-color: #ff6347;
+    background-color: #b1ed50;
     transform: scale(1.1);
 }
 
