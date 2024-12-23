@@ -1,3 +1,164 @@
+@import url(
+'https://fonts.googleapis.com/css2?family=poppins:wght@400;500;600;700&display=swap'
+);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+.contact{
+    position: relative;
+    min-height: 10vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #222;
+}
+
+.contact .content{
+    position: relative;
+    max-width: 800px;
+    text-align: center;
+}
+
+
+.contact .content h2{
+    font-size: 3em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.contact .content p{
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.container-2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.container-2 .contactinfo{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.container-2 .contactinfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    cursor: pointer;
+}
+
+.container-2 .contactinfo .box .icon{
+    position: relative;
+    min-width: 60px;
+    height: 60px;
+    background: repeating-conic-gradient(from 27.5deg,#01bdc2 0%
+     ,#01bdc2 10% , transparent 10% , transparent 50% ) ;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.container-2 .contactinfo .box .icon::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: repeating-conic-gradient(from 117.5deg,#01bdc2 0%
+     ,#01bdc2 10% , transparent 10% , transparent 50% ) ;
+}
+
+.container-2 .contactinfo .box .icon::after{
+    content: "";
+    position: absolute;
+    inset: 2px;
+    background: #222;
+}
+
+.container-2 .contactinfo .box .icon b{
+    position: absolute;
+    inset: 8px;
+    background: #01bdc2;
+    z-index: 2;
+}
+
+.container-2 .contactinfo .box .icon i{
+    position: relative;
+    z-index: 1000;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.container-2 .contactinfo .box .text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 300;
+}
+
+.container-2 .contactinfo .box .text h3{
+    font-weight: 500;
+    color: #01bdc2 ;
+}
+
+.container-2 .contactinfo .txt{
+    color: #fff;
+    margin-top: 50px;
+    font-weight: 500;
+    border-left: 50px solid #01bdc2 ;
+    padding-left: 10px;
+    line-height: 1em;
+}
+
+.container-2 .contactinfo .sci{
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    gap: 50px;
+    margin: 20px 0;
+}
+
+.container-2 .contactinfo .sci li{
+    list-style: none;
+}
+
+
+.container-2 .contactinfo .sci li a{
+    color: #fff;
+    font-size:1.5em;
+    transition: 0.25s;
+}
+
+.container-2 .contactinfo .sci li a:hover{
+    color: #01bdc2;
+    filter: drop-shadow(0 0 5px #01bdc2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 *{
     margin: 0;
     padding: 0;
