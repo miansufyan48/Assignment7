@@ -54,7 +54,7 @@ header{
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
-    border-bottom: 2px solid transparent ;
+    border-bottom: 3px solid transparent ;
     transition: .5s;
 }
 
@@ -220,9 +220,13 @@ header{
 }
 
 .varbar{
-    margin-right:20px ;
-    font-weight: 600;
+    display: flex;
+    background: transparent;
+    margin-right: 20px;
+    padding: 10px 20px;
+    margin-left: 10px;
 }
+
 
 *{
     margin: 0;
