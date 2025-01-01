@@ -289,7 +289,7 @@ ul{
 .hero-content button{
     display: inline-block;
     padding: 15px 30px;
-    background-color: #b5ff45;
+    background-color: #68f556;
     color: #050505;
     border-radius: 5px;
     font-size: 20px;
@@ -299,7 +299,7 @@ ul{
 }
 
 .hero-content button:hover{
-    background-color: #b1ed50;
+    background-color: #68ed50;
     transform: scale(1.1);
 }
 

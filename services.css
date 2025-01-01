@@ -239,3 +239,137 @@ ul{
        
     }
 } 
+
+
+
+
+
+
+
+
+
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.wrapper{
+    display: flex;
+    font-family: raleway;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #fafafa;
+    margin-top: 100px;
+}
+
+
+.wrapper h1{
+    font-size: 3em;
+    font-weight: 500;
+    margin: 25px 0;
+    text-align: center;
+}
+
+
+
+.content-box{    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.card{
+    min-height: 220px;
+    width: 320px;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    margin: 10px 4px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.card i{
+    margin: 20px;
+    color: #56ff46;
+}
+
+card h2{
+    font-weight: 400;
+    margin-bottom: 14px; 
+    text-align: center;
+}
+
+.card p{
+    color: #6c6c6c;
+    text-align: center;
+}
+
+.card:hover i,
+.card:hover p{
+    color: #fff;
+}
+.card:hover h2{
+    font-weight: 600;
+}
+.card:nth-child(1):hover{
+    background: linear-gradient(45deg,
+                                 rgba(145, 245, 105, 0.7) 0%,
+                                 rgba(145, 245, 105, 0.7)100%),
+                                 url('p1.avif');
+                                 background-size:cover;
+}
+
+.card:nth-child(2):hover{
+    background: linear-gradient(45deg,
+                                 rgba(145, 245, 105, 0.7) 0%,
+                                 rgba(145, 245, 105, 0.7)100%),
+                                 url('p1.avif');
+                                 background-size:cover;
+}
+
+.card:nth-child(3):hover{
+    background: linear-gradient(45deg,
+                                 rgba(145, 245, 105, 0.7) 0%,
+                                 rgba(145, 245, 105, 0.7)100%),
+                                 url('p1.avif');
+                                 background-size:cover;
+}
+
+.card:nth-child(4):hover{
+    background: linear-gradient(45deg,
+                                 rgba(145, 245, 105, 0.7) 0%,
+                                 rgba(145, 245, 105, 0.7)100%),
+                                 url('p1.avif');
+                                 background-size:cover;
+}
+
+
+.card:nth-child(5):hover{
+    background: linear-gradient(45deg,
+                                 rgba(145, 245, 105, 0.7) 0%,
+                                 rgba(145, 245, 105, 0.7)100%),
+                                 url('p1.avif');
+                                 background-size:cover;
+}
+
+.card:nth-child(6):hover{
+    background: linear-gradient(45deg,
+                                 rgba(145, 245, 105, 0.7) 0%,
+                                 rgba(145, 245, 105, 0.7)100%),
+                                 url('p1.avif');
+                                 background-size:cover;
+}
